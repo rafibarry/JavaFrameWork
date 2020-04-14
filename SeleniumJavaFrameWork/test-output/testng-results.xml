@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-08T10:46:35 IDT" name="Default suite" finished-at="2020-04-08T10:47:02 IDT" duration-ms="26374">
+    <groups>
+    </groups>
+    <test started-at="2020-04-08T10:46:35 IDT" name="Default test" finished-at="2020-04-08T10:47:02 IDT" duration-ms="26374">
+      <class name="Test.ExtentReportsDemoWithTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.ExtentReportsDemoWithTestNG@7a4ccb53]" started-at="2020-04-08T10:46:35 IDT" name="setUp" finished-at="2020-04-08T10:46:35 IDT" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:Test.ExtentReportsDemoWithTestNG@7a4ccb53]" started-at="2020-04-08T10:46:35 IDT" name="setUpTest" finished-at="2020-04-08T10:46:49 IDT" duration-ms="13571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="test1()[pri:0, instance:Test.ExtentReportsDemoWithTestNG@7a4ccb53]" started-at="2020-04-08T10:46:49 IDT" name="test1" finished-at="2020-04-08T10:46:58 IDT" duration-ms="9285" status="FAIL">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Wrong Status expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Wrong Status expected:<true> but was:<false>
+at junit.framework.Assert.fail(Assert.java:57)
+at junit.framework.Assert.failNotEquals(Assert.java:329)
+at junit.framework.Assert.assertEquals(Assert.java:78)
+at junit.framework.Assert.assertEquals(Assert.java:174)
+at Test.ExtentReportsDemoWithTestNG.test1(ExtentReportsDemoWithTestNG.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Test.ExtentReportsDemoWithTestNG@7a4ccb53]" started-at="2020-04-08T10:46:58 IDT" name="test2" finished-at="2020-04-08T10:46:58 IDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test.ExtentReportsDemoWithTestNG@7a4ccb53]" started-at="2020-04-08T10:46:58 IDT" name="tearDownTest" finished-at="2020-04-08T10:47:02 IDT" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Test.ExtentReportsDemoWithTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
