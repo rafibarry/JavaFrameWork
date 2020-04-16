@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="34.313" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="63.4" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Rafi\workspace\SeleniumJavaFrameWork\target\test-classes;C:\Users\Rafi\workspace\SeleniumJavaFrameWork\target\classes;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Rafi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rafi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Rafi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rafi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rafi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rafi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rafi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rafi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Rafi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Rafi\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Rafi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafi\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Rafi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rafi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Rafi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rafi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rafi\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Rafi\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Rafi\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Rafi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rafi\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Rafi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Rafi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Rafi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Rafi\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\Rafi\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Rafi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Rafi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork\target\test-classes;C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork\target\classes;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Rafi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rafi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Rafi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rafi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rafi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rafi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rafi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rafi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Rafi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Rafi\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Rafi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafi\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Rafi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rafi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Rafi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rafi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rafi\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Rafi\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Rafi\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Rafi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rafi\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Rafi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Rafi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Rafi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Rafi\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\Rafi\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Rafi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Rafi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rafi\AppData\Local\Temp\surefire6867883746314289006\surefirebooter16965544403844316298.jar C:\Users\Rafi\AppData\Local\Temp\surefire6867883746314289006 2020-04-07T17-41-10_197-jvmRun1 surefire13103679347078808666tmp surefire_014282902460917277182tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rafi\AppData\Local\Temp\surefire10843143794912332650\surefirebooter16780627197962909175.jar C:\Users\Rafi\AppData\Local\Temp\surefire10843143794912332650 2020-04-14T16-06-27_994-jvmRun1 surefire13203761096145068684tmp surefire_016122547661032863003tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Rafi\workspace\SeleniumJavaFrameWork\target\test-classes;C:\Users\Rafi\workspace\SeleniumJavaFrameWork\target\classes;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Rafi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rafi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Rafi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rafi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rafi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rafi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rafi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rafi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Rafi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Rafi\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Rafi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafi\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Rafi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rafi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Rafi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rafi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rafi\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Rafi\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Rafi\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Rafi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rafi\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Rafi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Rafi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Rafi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Rafi\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\Rafi\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Rafi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Rafi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork\target\test-classes;C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork\target\classes;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Rafi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Rafi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rafi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Rafi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rafi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rafi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rafi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rafi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rafi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Rafi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Rafi\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Rafi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafi\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Rafi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rafi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Rafi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rafi\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rafi\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Rafi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Rafi\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Rafi\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Rafi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rafi\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Rafi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Rafi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Rafi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Rafi\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\Rafi\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Rafi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Rafi\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Rafi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Rafi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Rafi\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Rafi"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2019-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Rafi\workspace\SeleniumJavaFrameWork"/>
+    <property name="basedir" value="C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rafi\AppData\Local\Temp\surefire6867883746314289006\surefirebooter16965544403844316298.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rafi\AppData\Local\Temp\surefire10843143794912332650\surefirebooter16780627197962909175.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -47,130 +47,17 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Rafi\AppData\Local\Temp\"/>
     <property name="java.version" value="12.0.2"/>
-    <property name="user.dir" value="C:\Users\Rafi\workspace\SeleniumJavaFrameWork"/>
+    <property name="user.dir" value="C:\Users\Rafi\git\SeleniumJavaFrame\SeleniumJavaFrameWork"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Rafi\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Rafi\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\Rafi\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Rafi\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Rafi\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\Rafi\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="test1" classname="Test.ExtentReportsDemoWithTestNG" time="23.372">
-    <failure message="The following asserts failed:&#10;	Titles not match expected [Google] but found [Goole]" type="java.lang.AssertionError">java.lang.AssertionError: 
-The following asserts failed:
-	Titles not match expected [Google] but found [Goole]
-	at Test.ExtentReportsDemoWithTestNG.test1(ExtentReportsDemoWithTestNG.java:109)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 6767
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1586270480.052][WARNING]: Timed out connecting to Chrome, retrying...
-Apr 07, 2020 5:41:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1586270484.164][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270484.469][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270484.661][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270484.763][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270484.865][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270484.966][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270485.069][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270485.172][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.102][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.203][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.306][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.433][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.535][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.745][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270486.949][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.051][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.153][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.256][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.358][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.462][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.568][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.704][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.806][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270487.912][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270488.014][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270488.117][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270489.762][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270489.863][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270489.966][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270490.068][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270490.290][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.328][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.544][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.646][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.749][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.852][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270492.954][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.088][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.190][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.292][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.394][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.498][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.600][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.702][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.804][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270493.908][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.268][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.371][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.476][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.578][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.681][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.783][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.886][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270494.988][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.090][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.354][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.455][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.557][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.660][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.764][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.867][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270495.969][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.071][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.174][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.277][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.388][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.493][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.595][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.701][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.889][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270496.990][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.095][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.198][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.301][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.403][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.506][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.609][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.714][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.817][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270497.921][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.024][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.127][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.231][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.333][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.434][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.536][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.639][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.744][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.857][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270498.962][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.064][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.337][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.440][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.542][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.646][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.750][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.853][SEVERE]: Timed out receiving message from renderer: 0.100
-[1586270499.955][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
-  <testcase name="test2" classname="Test.ExtentReportsDemoWithTestNG" time="0.003"/>
+  <testcase name="test1" classname="Test.ExtentReportsDemoWithTestNG" time="34.888"/>
+  <testcase name="test2" classname="Test.ExtentReportsDemoWithTestNG" time="0.008"/>
 </testsuite>

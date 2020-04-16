@@ -7,5 +7,6 @@ Test\ExtentReportsDemoWithTestNG.class
 Test\TestNG_googleSearch.class
 DesiredCapabilities_Demo.class
 config\PropertiesFile.class
+Test\DockerTest.class
 Test\ExtentFactory.class
 HeadlessChromeDemo.class

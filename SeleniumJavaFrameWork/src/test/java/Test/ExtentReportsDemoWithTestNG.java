@@ -45,7 +45,8 @@ public class ExtentReportsDemoWithTestNG {
 	public ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	static WebDriver driver = null;
-	String projectPath = "C:\\Users\\Rafi\\workspace\\SeleniumJavaFrameWork";
+//	String projectPath = "C:\\Users\\Rafi\\workspace\\SeleniumJavaFrameWork";
+	String projectPath = "C:\\Users\\Rafi\\git\\SeleniumJavaFrame\\SeleniumJavaFrameWork";
 	static ExtentTest test1;
 	boolean exist;
 	
@@ -102,7 +103,6 @@ public class ExtentReportsDemoWithTestNG {
 				test1.fail("Title is not as expected: got " + title + " instead of 'google'");
 		}
 		
-		Assert.assertEquals("Wrong Status", true, false);
 		
 	//	test1.pass("Title is correct");
 		//softAssert.assertEquals("Goole", title, "Titles not match");
